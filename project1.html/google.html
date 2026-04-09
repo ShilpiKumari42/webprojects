@@ -1,0 +1,146 @@
+[9:47 pm, 22/10/2025] shilpi: <html>
+    <head><title>google form</title>
+    <link rel="stylesheet" href=form.css></link></head>
+    <body>
+        <h2 style="border: 5px solid black; background-color: rgb(219, 157, 24);">Enter your complete details</h2>
+        <label style="text-align: center;">
+           <div> Enter your name:<br>
+            <input type="text" placeholder="name"><br></div>
+            <div>Enter your adress:<br>
+            <input type="text" placeholder="adress"><br></div>
+           <div>Enter your phone no. :<br>
+            <input type="text" placeholder="phone"><br></div>
+            <div>Enter your mail:<br>
+            <input type="text" placeholder="e-mail"><br></div>
+           <div> Enter your registeration no. :<br>
+            <input type="text" placeholder="registeration "><br></div>
+
+        </label><hr>
+        Select your branch:
+        <select name="branch" id="branch">
+            <option  value="a">CSE</option>
+            <option value="b">CSE(CYBER)</option>
+            <option value="c">ECE</option>
+            <option value="d">electrical</option>
+            <option value="e">mechanical</option>
+            <option value="f">any other</option>
+        
+        </select><br><hr>
+        Select your profession:
+        <select name="profession" id="profession">
+            <option value="student">student</option>
+            <option value="professor">professor</option>
+        </select><br><hr>
+        Select your tech skills:<br>
+        
+        <input type="checkbox" name="tech" id="html">
+        <lable for="html">html</lable>
+        <input type="checkbox" name="tech" id="css">
+        <lable for="css">css</lable>
+        <input type="checkbox" name="tech" id="python">
+        <lable for="python">python</lable>
+        <input type="checkbox" name="tech" id="c">
+        <lable for="c">c/c++</lable>
+        <input type="checkbox" name="tech" id="java">
+        <lable for="java">java</lable>
+        <input type="checkbox" name="tech" id="o">
+        <lable for="o">any other</lable>
+        <br><hr>
+        Rate your communication skills:<br>
+        <input type="radio" name="tech" id="html">
+        <lable for="html">1</lable>
+        <input type="radio" name="tech" id="css">
+        <lable for="css">2</lable>
+        <input type="radio" name="tech" id="python">
+        <lable for="python">3</lable>
+        <input type="radio" name="tech" id="c">
+        <lable for="c">4</lable>
+        <input type="radio" name="tech" id="java">
+        <lable for="java">5</lable>
+        <br><hr>
+        rate your leadership skills:<br>
+        <input type="radio" name="tech" id="html">
+        <lable for="html">1</lable>
+        <input type="radio" name="tech" id="css">
+        <lable for="css">2</lable>
+        <input type="radio" name="tech" id="python">
+        <lable for="python">3</lable>
+        <input type="radio" name="tech" id="c">
+        <lable for="c">4</lable>
+        <input type="radio" name="tech" id="java">
+        <lable for="java">5</lable><hr>
+         your management skills:<br>
+        <input type="radio" name="tech" id="html">
+        <lable for="html">1</lable>
+        <input type="radio" name="tech" id="css">
+        <lable for="css">2</lable>
+        <input type="radio" name="tech" id="python">
+        <lable for="python">3</lable>
+        <input type="radio" name="tech" id="c">
+        <lable for="c">4</lable>
+        <input type="radio" name="tech" id="java">
+        <lable for="java">5</lable><hr>
+        <div style="background-color: rgb(226, 98, 147);">Your feedback:<br>
+        <textarea>write your feedback</textarea></div><hr>
+        <div style="background-color: rgb(204, 204, 67);">
+        <button type="submit">submit</button>
+        </div>
+
+
+
+    </body>
+</html>
+[9:50 pm, 22/10/2025] shilpi: * {
+    display: flex;
+    flex-direction: column;
+    display:block;
+
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color:rgb(231, 7, 7);
+    text-decoration:solid;
+    align-items: center;
+}
+input[type="text"]{
+    background-color: rgb(205, 238, 18);
+    font-weight: 600;
+    text-align: center;
+}
+#branch{
+    color:blue;
+}
+#proffession{
+    color:rgb(233, 25, 25);
+}
+textarea:hover{
+    color:rgb(240, 159, 10);
+    background-color: blueviolet;
+}
+button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(70, 173, 233);
+}
+input[type="radio"]{
+    align-items: center;
+    accent-color: blue;
+}
+input[type="checkbox"]{
+    accent-color: blue;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 900px; 
+    border:5px solid rgb(19, 17, 17);
+    background-color: aquamarine;
+    margin: 10px;
+}
+label{
+    text-align: center;
+}

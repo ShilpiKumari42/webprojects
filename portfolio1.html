@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating own  portfolio</title>
+</head>
+<style>
+    body{
+        background-color:black ;
+    }
+    div{
+        display:flex;
+        height:50 px;
+        width:1000 px ;
+        background-color: rgb(4, 1, 10);
+        
+    }
+    nav{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        
+    }
+    nan ul{
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+    }
+    nav ul li{
+        display: inline;
+        color:white;
+        list-style: none ;
+        margin: 0 20px;
+        
+    }
+
+    
+    .first{
+        display: flex;
+        justify-content: space-around;
+        
+        align-items: center;
+        height: 400px;
+        width: 50%;
+        
+        margin: 20 px;
+        color:azure;
+    }
+    .n{
+        color:rgb(73, 73, 167);
+        font-size: 3rem;
+        font-style:oblique;
+    }
+    .i{
+        color:rgb(117, 8, 90);
+        font-size:4rem;
+    }
+    .button{
+        background-color: aliceblue;
+        color: blue;
+        font-size:2rem;
+        align-items: center;
+        border: 2px solid blueviolet;
+        border-radius:20%;
+        transition-duration: 3s;
+        transition-delay: 1s;
+        transition-property: red;
+        transition-timing-function:ease-in-out;
+    }
+    footer {
+        display: flex;
+        
+        
+        justify-content: space-around;
+        margin: 0 25px;
+    }
+        
+    a{
+        display: inline-block;
+        margin-right:27px;
+    }
+
+    
+    @keyframes ani {
+        0%{color:blue;}
+        100%{color:white;}
+        
+    }
+    .n{
+        
+        animation:ani 3s alternate infinite  ;
+
+    }
+    .m{ 
+        display: flex;
+        justify-content: right;
+
+    }
+    h2{
+        position: relative;
+        left: 200px;
+    }
+        
+    
+        
+    
+
+    
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="a"><h2  style="color:rgb(159, 216, 238);text-align:right;background-color: black;"> &hearts;SHILPI KUMARI</h2></div>
+            <DIV class="b">
+                <ul>
+                   <A > <li>Home</li></A>
+                    <a ><Li>About</Li></a>
+                    <a ><Li>tech skills</Li></a>
+                    <a ><Li>projects</Li></a>
+                    <a ><li >Education</li></a>
+
+                    
+                </ul>
+            </DIV>
+        </nav>
+    </header>
+    <main>
+        <section><div>
+            <div class="first">
+               <h2><span class="i">Hii!!</span><br>Myself <span class="n">SHILPI</span> <br>And I am the student of <BR>BIT Sindri!!
+             <br> <button class="button"><a >View more</a></button></h2><br>
+    
+          </div >
+        <div class="sec" >
+            <img src="bit.jpg" height="400 px" width="100%" display="inline">
+                
+            </div>
+          </div>
+        </section>
+        <section>
+            <div >
+                <DIV><img src="web.jpg" height="400 px" width="100%" ></DIV>
+                <div><h2 style="color:yellow; margin: 150px; font-size: x-large;">Iam Learning about <BR>
+                    <span style="color:green ; font-size: 3rem;">HTML</span> and<span style="color:green ; font-size: 3rem;">CSS.</span> </h2></div>
+                
+            </div>
+        </section>
+    </main><div>
+    <footer style="background-color: black;
+     color:aliceblue">
+       <div><h3> contact details:<br >
+        Phone no.:9798442448<br>
+        E-mail:shilpi2468sahu@gmail.com<br></h3></div>
+        <div><img src="insta.jpg" height="25px" width="25px"><h3>
+            <a href="/" >
+        
+        instagram</a></h3></div>
+        <div><img src="linkedin.jpg" height="25px" width="25px"  ><h3><a href="/">Linkedin</a></h3>
+        </div>
+        <div><img src="watsapp.jpg" height="25px" width="25px"  ><h3><a href="/">watsapp</a></h3>
+        </div>
+        <div><img src="twitter.jpg" height="25px" width="25px"  ><h3><a href="/">twitter</a></h3>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
